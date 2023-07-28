@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Serif', serif;
+}
+
+header{
+    background-color: #252525;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+.logo{
+    height: 8vh;
+}
+
+header section{
+    display: flex;
+    align-items: center;
+    width: 18vw;
+    justify-content: space-evenly;
+}
+
+header nav{
+    display: flex;
+    width: 20vw;
+    justify-content: space-evenly;
+}
+
+
+
+.PrimeiraS{
+    background-image: url(./img/cachorroInicial.png);
+    height: 130vh;
+    background-size:100% 100%;
+    background-position: center; 
+    background-repeat:no-repeat;
+    font-size: 51px;
+    text-align: center;
+    word-spacing: 5px;
+    color: #FFFFFF;
+
+}
+
+main h1{
+    height: 45vh;
+}
+
+
+.PrimeiraS figure{
+    height: 40vh;
+}
+
+.SegundaS{
+    background-image: url(./img/cachorrosegundo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 120vh;
+}
+
+.SegundaS h2{
+    font-size: 49px;
+    text-align: center;
+    width: 50vw;
+    height: 15vh;
+}
+
+.SegundaS p{
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+    width: 33vw;
+    word-spacing: 7px;
+    height: 30vh;
+}
+
+.SegundaS button{
+    background-color: #3A342F;
+    color: #FFFFFF;
+    height: 12vh;
+    width: 14vw;
+    border-radius:100px;
+    font-family: 'Roboto bold', sans-serif;
+    font-size: 27px;
+}
+
+
+
+
+.TerceiraS{
+background-image: url(./img/cachorroterceiro.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-position: center;
+height: 120vh;
+}
+
+.TerceiraS h2{
+    font-size: 49px;
+    text-align: center;
+    width: 10vw;
+    height: 15vh;
+    color: #FFFFFF;
+    flex-direction: column;
+
+}
+
+.TerceiraS p{
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+    width: 33vw;
+    word-spacing: 7px;
+    height: 25vh;
+    color: #FFFFFF;
+}
+
+
+.TerceiraS button{
+    background-color: #FFFFFF;
+    color: #000000;
+    height: 12vh;
+    width: 14vw;
+    border-radius:100px;
+    font-family: 'Roboto bold', sans-serif;
+    font-size: 27px;
+
+}
+
+
+.TerceiraS div{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+      width: 50vw;
+      height: 80vh;
+ 
+}
+
+.QuartaS{
+    font-size: 28px;
+    color: #FD6A9A;
+    background-color: #FFFFFF;
+    display: flex;
+    height: 27vh;
+    width: 84vw;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Roboto italic', sans-serif ;
+
+}
+
+.QuartaS img{
+    width: 18vw;
+    height: 6vh;
+}
+
+.havaianas{
+    position: relative;
+    right: 70px;
+}
+
+footer{
+    background-color: #EB4A7B;
+    color: #FFFFFF;
+    height: 60vh;
+}
+
+footer h3{
+    font-size: 24px;
+}
+footer ul{
+    list-style: none;
+}
+
+a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;   
+}
+
+  
+
+.coluna{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+    width: 10vw;
+}
+
+
+
+@media (max-width:500px){
+    .mobile{
+        display: none;
+    }
+
+.PrimeiraS{
+    background-image: url(./img/mobile1.png);
+}
+
+.SegundaS{
+    background-image: url(./img/mobile2.png);
+}
+
+.TerceiraS{
+    background-image: url(./img/mobile3.png);
+}
+
+}
